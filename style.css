@@ -6,7 +6,7 @@
 }
 
 main{
-    margin-top: 5%;
+    margin-top: 3%;
     text-align: center;
 }
 
@@ -16,16 +16,16 @@ header{
 
 section{
     width: 45%;
-    height: 500px;
+    height: 80vh;
     margin-left: 27%;
     border: black solid 3px;
+    position: relative;
 }
 
 .box{
-    margin: 10px;
-    display: inline-block;
+    margin: 2%;
     border: 3px solid black;
-    margin-top: 20px;
+    margin-top: 3%;   
 }
 
 .box1{
@@ -37,18 +37,23 @@ section{
 
 .box2{
     background-color:indianred ;
-    width: 150px;
-    height: 80px;
+    width: 15vw;
+    height: 13vh;    
+    float: left;
 }
 
 .box3{
     background-color:lightblue ;
-    width: 350px;
-    height: 80px;
+    width: 25vw;
+    height: 13vh;
+    float: right;
 }
 
 .box4{
-    width: 525px;
-    height:80px;
+    width: 42.5vw;
+    height:13vh;
     background-color:burlywood;
+    position: absolute;
+    right: 0px;
+    top: 75%;
 }
